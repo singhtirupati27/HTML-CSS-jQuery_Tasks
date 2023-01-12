@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.973);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.container {
+    margin-top: 10px;
+    height: 620px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: skyblue;
+    height: 100px;
+}
+
+.content {
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    background-color: yellowgreen;
+    height: 400px;
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.main-content {
+    background-color: goldenrod;
+    clear: left;
+    display: inline-block;
+    width: 690px;
+    height: 250px;
+}
+
+.extra-content {
+    background-color: grey;
+    width: 690px;
+    height: 140px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: darkorange;
+    height: 100px;
+}
+
+/* Pop-up */
+.pop-outer {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pop-inner p {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 300px;
+}
+
+.close-btn {
+    position: fixed;
+    top: 0;
+    right: 0;
+}

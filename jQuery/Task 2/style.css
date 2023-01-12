@@ -1,0 +1,15 @@
+.box1 {
+    background-color: lightgreen;
+    height: 80px;
+    border: 1px solid grey;
+}
+
+.box2 {
+    background-color: aqua;
+    height: 100vh;
+    border: 1px solid grey;
+}
+
+.box1, .box2 {
+    text-align: center;
+}
